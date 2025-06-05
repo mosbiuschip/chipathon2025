@@ -20,3 +20,17 @@ a) Open WSL and run:
 5) Download and install VS Code: https://code.visualstudio.com/
 
 6) Install Docker extension in VS Code
+
+7) Download and install MobaXterm: https://mobaxterm.mobatek.net/
+
+   MobaXterm allows users to run graphical applications on a remote server and display them locally, typically over an encrypted SSH connection.
+
+8) Open VS Code and open the terminal.
+
+  a) Create a folder where you will pull Harald Pretl's Docker image.
+
+  b) Clone Harald Pretl's Docker image from: https://github.com/iic-jku/iic-osic-tools with the following command:
+  ```
+  git clone https://github.com/iic-jku/IIC-OSIC-TOOLS.git
+  ```
+
