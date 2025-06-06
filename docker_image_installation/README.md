@@ -25,7 +25,7 @@ a) Open WSL and run:
 
    MobaXterm allows users to run graphical applications on a remote server and display them locally, typically over an encrypted SSH connection.
 
-8) Open VS Code and open the terminal.
+8) Open VS Code, open the terminal and **<ins>open a new  Ubuntu WSL terminal</ins>**.
 
   a) Create a folder where you will pull Harald Pretl's Docker image.
 
@@ -34,3 +34,12 @@ a) Open WSL and run:
   git clone https://github.com/iic-jku/IIC-OSIC-TOOLS.git
   ```
 
+9) To allow us to run Docker by using WSL terminal, run the following line in the WSL terminal:
+  ```
+  sudo chmod 666 /var/run/docker.sock
+  ```
+
+10) Execute the following command in the WSL terminal:
+  ```
+  ./start_vnc.sh
+  ```
