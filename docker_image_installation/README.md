@@ -2,6 +2,11 @@
 
 The Docker image used in this 2025 Chipathon is pre-packaged Docker container provided by Harald Pretl's lab **IIC-OSIC-TOOLS**: https://github.com/iic-jku/iic-osic-tools
 
+First, a block diagram with the main installation steps:
+<p align="center">
+   <img src="./Installation_flow.png" width="600" />
+</p>  
+
 GUI-based tool setup:
 1) Download Docker: https://www.docker.com/get-started/
 
