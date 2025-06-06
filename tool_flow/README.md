@@ -1,3 +1,4 @@
+# Description (in progress)
 This folder contains a block diagram associated with the design flow that will be implemented.
 
 <p align="center">
