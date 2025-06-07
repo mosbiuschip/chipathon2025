@@ -46,5 +46,5 @@ a) Open WSL and run:
 
 10) Execute the following command in the Powershell terminal in the IIC-OSIC-TOOLS folder:
   ```
-  ./start_vnc.sh
+  ./start_vnc.bat
   ```
