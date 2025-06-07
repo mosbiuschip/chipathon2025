@@ -44,7 +44,7 @@ a) Open WSL and run:
   sudo chmod 666 /var/run/docker.sock
   ```
 
-10) Execute the following command in the WSL terminal:
+10) Execute the following command in the Powershell terminal in the IIC-OSIC-TOOLS folder:
   ```
   ./start_vnc.sh
   ```
