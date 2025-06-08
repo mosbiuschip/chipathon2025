@@ -44,7 +44,7 @@ a) Open WSL and run:
   sudo chmod 666 /var/run/docker.sock
   ```
 
-10) Execute the following command in the **Powershell terminal** in the IIC-OSIC-TOOLS folder:
+10) Execute the following command in **Powershell terminal** in the IIC-OSIC-TOOLS folder:
   ```
   ./start_vnc.bat
   ```
@@ -65,9 +65,35 @@ a) Open WSL and run:
   ```
 14) Delete Docker container in the app.
 
-15) Run again the following command in the **Powershell terminal** in the IIC-OSIC-TOOLS folder:
+15) Run again the following command in **Powershell terminal** in the IIC-OSIC-TOOLS folder:
   ```
   ./start_vnc.bat
   ```
 
 16) A new terminal pops up.
+<br>
+:arrows_clockwise::arrows_clockwise::arrows_clockwise: Switching between PDKs :arrows_clockwise::arrows_clockwise::arrows_clockwise:
+
+When you open the simulation environment, it is possible that the PDK set is different from the expected one for the 2025 Chipathon(Global Foundries 180nm). If this is the case, follow the next steps to switch PDKs.
+
+
+| PDK | SkyWater 130nm | Global Foundries 180nm |  ihp sg13g2 130nm |
+| ----------- | ---- | --------- | ----- |
+| PDK Library |	export PDK = sky130A | export PDK = gf180mcuC | |
+| Path to the PDK Library |	export PDKPATH = $PDK_ROOT/$PDK | export PDKPATH = $PDK_ROOT/$PDK	| |
+| Standard Cell PDK Library |	export STD_CELL_LIBRARY = sky130_fd_sc_hd | export STD_CELL_LIBRARY = gf180mcu_fd_sc_mcu7t5v0	| |
+
+<br>
+<br>
+<br>
+
+:rotating_light: :rotating_light: :rotating_light: :rotating_light: Important information: :rotating_light: :rotating_light: :rotating_light: :rotating_light: 
+
+Once the Docker image has been installed correctly, you need to follow these steps each time you access it locally:
+
+- Open Docker app
+- Open Mobaxterm and run X server (X11 Forwarding)
+- Run in **Powershell terminal** the command:
+  ```
+  ./start_vnc.bat
+  ```
