@@ -121,3 +121,7 @@ Once the Docker image has been installed correctly, you need to follow these ste
   ```
   ./start_vnc.bat
   ```
+  - Source in the popped-up terminal the next command to set Global Foundries 180nm PDK:
+  ```
+  source setup_pdk.sh
+  ```
