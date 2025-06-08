@@ -85,14 +85,21 @@ When you open the simulation environment, it is possible that the PDK set is dif
   gedit setup_pdk.sh
   ```
 
-c) Modify the setup_pdk.sh file as illustrated below:
+c) Modify the setup_pdk.sh file, based on the table beelow, as illustrated in the next figure and then save it:
 
 <p align="center">
    <img src="./setup_pdk.png" width="600" />
 </p>  
 
-d) There is a new VS Code window that pops up, open the **.bashrc** file and modify the next three lines, based on the table presented below:
+d) Now, we need to make the file executable:
+  ```
+  chmod +x setup_pdk.sh
+  ```
 
+e) Now source the file to be able to work with Global Foundries 180nm PDK:
+  ```
+  source setup_pdk.sh
+  ```
 
 | PDK | SkyWater 130nm | Global Foundries 180nm |  ihp sg13g2 130nm |
 | ----------- | ---- | --------- | ----- |
