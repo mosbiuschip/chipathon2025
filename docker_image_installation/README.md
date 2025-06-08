@@ -77,18 +77,19 @@ a) Open WSL and run:
 When you open the simulation environment, it is possible that the PDK set is different from the expected one for the 2025 Chipathon(Global Foundries 180nm). If this is the case, follow the next steps to switch PDKs.
  a) In the terminal that popped up, type the following command:
    ```
-  cd
+  cd foss/designs
   ```
 
- b) Then, go to VS Code and type the same command:
+ b) Then, type the next command:
   ```
-  cd
+  gedit setup_pdk.sh
   ```
 
-c) In VS Code, type the next command:
-  ```
-  code .
-  ```
+c) Modify the setup_pdk.sh file as illustrated below:
+
+<p align="center">
+   <img src="./setup_pdk.png" width="600" />
+</p>  
 
 d) There is a new VS Code window that pops up, open the **.bashrc** file and modify the next three lines, based on the table presented below:
 
