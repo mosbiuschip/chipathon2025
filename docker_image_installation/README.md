@@ -46,7 +46,7 @@ a) Open WSL and run:
 
 10) Execute the following command in **Powershell terminal** in the IIC-OSIC-TOOLS folder:
   ```
-  ./start_vnc.bat
+  .\start_vnc.bat
   ```
 
 11) Building X11 Forwarding by installing VS Code Server for Linux x64. Run the following command in the IIC-OSIC-TOOLS folder:
@@ -67,7 +67,7 @@ a) Open WSL and run:
 
 15) Run again the following command in **Powershell terminal** in the IIC-OSIC-TOOLS folder:
   ```
-  ./start_vnc.bat
+  .\start_vnc.bat
   ```
 
 16) A new terminal pops up.
@@ -119,7 +119,7 @@ Once the Docker image has been installed correctly, you need to follow these ste
 - Open Mobaxterm and run X server (X11 Forwarding)
 - Run in **Powershell terminal** the command:
   ```
-  ./start_vnc.bat
+  .\start_vnc.bat
   ```
   - Source in the popped-up terminal the next command to set Global Foundries 180nm PDK:
   ```
