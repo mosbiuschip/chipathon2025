@@ -75,6 +75,22 @@ a) Open WSL and run:
 :arrows_clockwise::arrows_clockwise::arrows_clockwise: Switching between PDKs :arrows_clockwise::arrows_clockwise::arrows_clockwise:
 
 When you open the simulation environment, it is possible that the PDK set is different from the expected one for the 2025 Chipathon(Global Foundries 180nm). If this is the case, follow the next steps to switch PDKs.
+ a) In the terminal that popped up, type the following command:
+   ```
+  cd
+  ```
+
+ b) Then, go to VS Code and type the same command:
+  ```
+  cd
+  ```
+
+c) In VS Code, type the next command:
+  ```
+  code .
+  ```
+
+d) There is a new VS Code window that pops up, open the **.bashrc** file and modify the next three lines, based on the table presented below:
 
 
 | PDK | SkyWater 130nm | Global Foundries 180nm |  ihp sg13g2 130nm |
