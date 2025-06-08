@@ -44,7 +44,22 @@ a) Open WSL and run:
   sudo chmod 666 /var/run/docker.sock
   ```
 
-10) Execute the following command in the Powershell terminal in the IIC-OSIC-TOOLS folder:
+10) Execute the following command in the **Powershell terminal** in the IIC-OSIC-TOOLS folder:
   ```
   ./start_vnc.bat
+  ```
+
+11) Building X11 Forwarding by installing VS Code Server for Linux x64. Run the following command in the IIC-OSIC-TOOLS folder:
+   ```
+  code .
+  ```
+
+12) Modify line 98 of <ins>start_vnc.sh</ins>, and include the following:
+  ```
+  PARAMS="${PARAMS} -e DISPLAY=host.docker.internal:0"
+  ```
+
+13) Modify line 29 of <ins>start_vnc.sh</ins>, and include the following:
+  ```
+  DESIGN=/mnt/c/Users/{your username}/{path where IIC-OSIC-TOOLS folder was cloned}
   ```
