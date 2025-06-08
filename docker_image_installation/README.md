@@ -1,4 +1,4 @@
-# Installation steps (in progress)
+# Installation steps for Windows Users(in progress)
 
 The Docker image used in this 2025 Chipathon is pre-packaged Docker container provided by Harald Pretl's lab **IIC-OSIC-TOOLS**: https://github.com/iic-jku/iic-osic-tools
 
@@ -54,12 +54,20 @@ a) Open WSL and run:
   code .
   ```
 
-12) Modify line 98 of <ins>start_vnc.sh</ins>, and include the following:
+12) Modify line 63 of <ins>start_vnc.bat</ins>, and include the following:
   ```
-  PARAMS="${PARAMS} -e DISPLAY=host.docker.internal:0"
+  SET PARAMS=%PARAMS% -e DISPLAY=host.docker.internal:0
   ```
 
-13) Modify line 29 of <ins>start_vnc.sh</ins>, and include the following:
+13) Modify line 23 of <ins>start_vnc.bat</ins>, and include the following:
   ```
-  DESIGN=/mnt/c/Users/{your username}/{path where IIC-OSIC-TOOLS folder was cloned}
+  SET DEFAULT_DESIGNS=C:/mnt/c/Users/{your username}/{path where IIC-OSIC-TOOLS folder was cloned}
   ```
+14) Delete Docker container in the app.
+
+15) Run again the following command in the **Powershell terminal** in the IIC-OSIC-TOOLS folder:
+  ```
+  ./start_vnc.bat
+  ```
+
+16) A new terminal pops up.
