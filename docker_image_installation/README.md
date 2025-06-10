@@ -22,15 +22,19 @@ a) Open WSL and run:
 ```
 4) In the Docker app, enable integration with Ubuntu.
 
-5) Download and install VS Code: https://code.visualstudio.com/
+<p align="center">
+   <img src="./Ubuntu_WSL_integration.png" width="600" />
+</p> 
 
-6) Install Docker extension in VS Code
+6) Download and install VS Code: https://code.visualstudio.com/
 
-7) Download and install MobaXterm: https://mobaxterm.mobatek.net/
+7) Install Docker extension in VS Code
+
+8) Download and install MobaXterm: https://mobaxterm.mobatek.net/
 
    MobaXterm allows users to run graphical applications on a remote server and display them locally, typically over an encrypted SSH connection.
 
-8) Open VS Code, open the terminal and **<ins>open a new  Ubuntu WSL terminal</ins>**.
+9) Open VS Code, open the terminal and **<ins>open a new  Ubuntu WSL terminal</ins>**.
 
   a) Create a folder where you will pull Harald Pretl's Docker image.
 
