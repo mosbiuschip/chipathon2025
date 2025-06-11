@@ -14,3 +14,6 @@ Klayout GUI pops up as indicated in the next image.
 </p>  
 
 It is important to mention that there are two red rectangles highlighting that klayout loaded ihp layer properties file correctly. To change the layer properties file to gf180mcu PDK, open 
+<p align="center">
+   <img src="./klayout_path.png" width="600" />
+</p>  
