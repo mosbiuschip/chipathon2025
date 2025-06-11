@@ -24,6 +24,14 @@ Save the file and source it:
   ```
 
 Open again klayout.
+
 <p align="center">
    <img src="./img/klayout_gf_incomplete.png" width="600" />
 </p>  
+
+It is possible to observe that there is only one gf180mcu label, compared with the first time klayout was opened (ihp configuration). This indicates that gf1180 pcells were not loaded correctly, as illustrated in the next image:
+
+<p align="center">
+   <img src="./img/klayout_no_pcells.png" width="600" />
+</p>  
+
