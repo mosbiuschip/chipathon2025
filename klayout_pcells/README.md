@@ -29,14 +29,21 @@ Open again klayout.
    <img src="./img/klayout_gf_incomplete.png" width="600" />
 </p>  
 
-It is possible to observe that there is only one gf180mcu label, compared with the first time klayout was opened (ihp configuration). This indicates that gf1180 pcells were not loaded correctly, as illustrated in the next image:
+It is possible to observe that there is only one gf180mcu label, compared with the first time klayout was opened (ihp configuration). This indicates that gf180 pcells were not loaded correctly, as illustrated in the next image:
 
 <p align="center">
    <img src="./img/klayout_no_pcells.png" width="600" />
 </p>  
 
-The image above shows that in the Instance menu, no gf180mcu library is present. To get access to the gf180mcu library, please do the following steps:
+The image above shows that in the Instance menu, no gf180mcu library is present (only Local and Basic libraries were loaded). To get access to the gf180mcu library, please do the following steps:
 
 1) Exit the Docker image terminal.
-2) 
+2) In the **Power shell** terminal, open the file *.\start_vnc.bat* and do the following changes.
+   a) set CONTAINER_USER=0
+   b) set CONTAINER_GROUP=0
+The previous changes allow you to do changes in the setup folders as root.
+
+<p align="center">
+   <img src="./img/root_setup.png" width="600" />
+</p> 
 
