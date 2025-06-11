@@ -21,7 +21,7 @@ The analog design flow is depicted in the following diagram (source: [EE628](htt
 
 - Simulations are run using `ngspice` that takes in the `.spice` file and saves the **simulation results** in a `.raw` file. 
 
-- The simulation results can be plotted with a waveform viewer like `gaw` or post processed using Python or Jupyter Notebooks. 
+- The simulation results can be plotted with a waveform viewer like `gaw` or post processed using Python or Jupyter Notebooks including Google Collab. 
 
 - Layouts are drawn in `klayout`. The layout geometries are saved in a `.gds` file. 
 

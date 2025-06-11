@@ -20,15 +20,3 @@ In this repository you will find the main documentation associated with the MOSb
 
 - To create the GitHub repository for your design files so you can collaborate among your team, you can create a new repository from the [GF180 Analog Design Workflow GitHub Repo Template](https://github.com/Jianxun/iic-osic-tools-project-template).
 - The template has a suggested folder structure, as well as an example of a small design of a five-transistor operational transconductance amplifier (5T-OTA) including schematics and layout. 
-
-<br><br><br>
-> 🚧 **Under Construction** 
-
-## To-Do List for Authors
-- Simple file with instructions to follow to install the OS tools
-- Make general diagram of the whole system github - folder local - docker image
-- Flowchart with all open source tools
-- How information travels between the tools
-- How to use github
-- How to plot → gaw, load files in xschem, google collab
-- Task 1 → 8-stage RO example using the whole flow 
