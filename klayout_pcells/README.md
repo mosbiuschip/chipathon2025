@@ -35,3 +35,8 @@ It is possible to observe that there is only one gf180mcu label, compared with t
    <img src="./img/klayout_no_pcells.png" width="600" />
 </p>  
 
+The image above shows that in the Instance menu, no gf180mcu library is present. To get access to the gf180mcu library, please do the following steps:
+
+1) Exit the Docker image terminal.
+2) 
+
