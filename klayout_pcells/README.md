@@ -64,3 +64,6 @@ Enter the *temp* file with:
   ```
     git clone https://github.com/efabless/globalfoundries-pdk-libs-gf180mcu_fd_pv.git
   ```
+
+These two repositories contain the files to load correctly the pcells and also the files to run DRC and LVS flows.
+
