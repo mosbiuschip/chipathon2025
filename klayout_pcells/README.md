@@ -66,4 +66,16 @@ Enter the *temp* file with:
   ```
 
 These two repositories contain the files to load correctly the pcells and also the files to run DRC and LVS flows.
+After running the two commands above, two new files are created inside the *temp* folder:
 
+<p align="center">
+   <img src="./img/cloned_repositories.png" width="600" />
+</p> 
+
+5) Inside the globalfoundries-pdk-libs-gf180mcu_fd_pv folder, run the following command:
+  ```
+    pip install -r requirements.txt
+  ```
+<p align="center">
+   <img src="./img/requirements.png" width="600" />
+</p> 
