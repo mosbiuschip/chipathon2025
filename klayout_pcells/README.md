@@ -1,4 +1,4 @@
-# gf180mcu pcell patch
+# gf180mcu pcell, drc, and lvs patch
 
 When you open the Docker image terminal, type the following command:
   ```
@@ -79,3 +79,5 @@ After running the two commands above, two new files are created inside the *temp
 <p align="center">
    <img src="./img/requirements.png" width="600" />
 </p> 
+
+6) In the local gf180mcuD klayout folder of the Docker image, delete the folders **drc** and **lvs**
