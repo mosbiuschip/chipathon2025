@@ -1,5 +1,5 @@
-# Description (in progress)
-This folder contains a block diagram associated with the design flow that will be implemented.
+# CAD Tool Flow
+
 
 <p align="center">
    <img src="./img/Tool_flow.png" width="600" />

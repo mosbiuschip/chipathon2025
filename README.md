@@ -13,16 +13,13 @@ In this repository you will find the main documentation associated with the MOSb
 ## Structure of This Documentation Repository
 
 - `CAD_tool_installation/`
+- `CAD_tool_computing_constellation/`
 - `CAD_tool_flow/`
-- `CAD_tool_structure/`
 
 
-<div style=margin-top: 40px;"></div>
-
-
-> 🚧 **Under Construction** 
 
 <br><br><br>
+> 🚧 **Under Construction** 
 
 ## To-Do List for Authors
 - Simple file with instructions to follow to install the OS tools
