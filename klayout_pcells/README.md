@@ -47,3 +47,8 @@ The previous changes allow you to do changes in the setup folders as root.
    <img src="./img/root_setup.png" width="600" />
 </p> 
 
+3) Create a temp file to download some repositories and do the changes.
+
+<p align="center">
+   <img src="./img/temp_file.png" width="600" />
+</p> 
