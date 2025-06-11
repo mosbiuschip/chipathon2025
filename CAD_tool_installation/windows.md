@@ -1,10 +1,12 @@
-# Installation steps for Windows Users(in progress)
+# Installation Steps for Windows
+
+> Under Construction
 
 The Docker image used in this 2025 Chipathon is pre-packaged Docker container provided by Harald Pretl's lab **IIC-OSIC-TOOLS**: https://github.com/iic-jku/iic-osic-tools
 
 First, a block diagram with the main installation steps:
 <p align="center">
-   <img src="./Installation_flow.png" width="600" />
+   <img src="./img/Installation_flow.png" width="600" />
 </p>  
 
 GUI-based tool setup:
@@ -23,7 +25,7 @@ a) Open WSL and run:
 4) In the Docker app, enable integration with Ubuntu.
 
 <p align="center">
-   <img src="./Ubuntu_WSL_integration.png" width="600" />
+   <img src="./img/Ubuntu_WSL_integration.png" width="600" />
 </p> 
 
 6) Download and install VS Code: https://code.visualstudio.com/
@@ -92,7 +94,7 @@ When you open the simulation environment, it is possible that the PDK set is dif
 c) Modify the setup_pdk.sh file, based on the table beelow, as illustrated in the next figure and then save it:
 
 <p align="center">
-   <img src="./setup_pdk.png" width="600" />
+   <img src="./img/setup_pdk.png" width="600" />
 </p>  
 
 d) Now, we need to make the file executable:

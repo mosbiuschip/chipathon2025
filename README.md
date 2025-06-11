@@ -1,7 +1,30 @@
-# Chipathon2025_MOSbius_main_documentation
-In this repository you will find the main documentation associated with the MOSbius project for the Chipathon 2025
+# IEEE SSCS Chipathon2025: MOSbius Track - Main Documentation 
+In this repository you will find the main documentation associated with the MOSbius project for the [IEEE SSCS Chipathon 2025](https://github.com/sscs-ose/sscs-chipathon-2025/)
 
-## Tasks
+# MOSbius Track Resources
+
+- [Brief Overview of the MOSbius Track](./files/MOSbius_Chipathon_2025_kinget_v1.pdf)
+
+- [MOSbius Chipathon 2025 Documentation (this repo)](https://github.com/JuanMoya/Chipathon2025_MOSbius_main_documentation)
+
+- [GF180 Analog Design Workflow GitHub Repo Template](https://github.com/Jianxun/iic-osic-tools-project-template)
+
+
+## Structure of This Documentation Repository
+
+- `CAD_tool_installation/`
+- `CAD_tool_flow/`
+- `CAD_tool_structure/`
+
+
+<div style=margin-top: 40px;"></div>
+
+
+> 🚧 **Under Construction** 
+
+<br><br><br>
+
+## To-Do List for Authors
 - Simple file with instructions to follow to install the OS tools
 - Make general diagram of the whole system github - folder local - docker image
 - Flowchart with all open source tools
