@@ -52,3 +52,15 @@ The previous changes allow you to do changes in the setup folders as root.
 <p align="center">
    <img src="./img/temp_file.png" width="600" />
 </p> 
+
+Enter the *temp* file with:
+  ```
+    cd temp
+  ```
+4) Download the following 2 repositories:
+  ```
+    git clone https://github.com/efabless/globalfoundries-pdk-libs-gf180mcu_fd_pr.git
+  ```
+  ```
+    git clone https://github.com/efabless/globalfoundries-pdk-libs-gf180mcu_fd_pv.git
+  ```
