@@ -11,4 +11,5 @@ In parallel with the installation instructions, take a look at the [CAD Tool Com
 
 ## Other Sources for Installation Instructions
 
-- [EE628 Tools Install](https://github.com/bmurmann/EE628/tree/main/3_Tools)
+- [B. Murmann, EE628 Tools Install](https://github.com/bmurmann/EE628/tree/main/3_Tools)
+- [Kwantae Kim, Setting Up Open-Source Tools with Docker](https://kwantaekim.github.io/2024/05/25/OSE-Docker/)
