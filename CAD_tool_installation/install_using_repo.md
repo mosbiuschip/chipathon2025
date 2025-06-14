@@ -186,6 +186,8 @@ You should get an example schematic with various demo schematics to characterize
 
 You now have a basic setup of the open source tools for schematic entry and simulation. Lateron, we will add the layout and verification tools. 
 
+![Xschem Screenshot](./img/screenshot_xschem.png)
+
 ## Postscript Notes
 ### Windows: 
 
