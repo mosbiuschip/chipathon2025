@@ -1,5 +1,7 @@
 # Installing the Open-Source IC Design Tools for Analog Design using a GitHub Project Repo
 
+Peter Kinget, June 14th, 2025
+
 ## Preamble
 - Read through this whole document first to get a sense of the various steps involved. 
 
@@ -75,7 +77,7 @@ cd
 
 ## Create & Clone GitHub Repo
 
-- At `https://github.com/<your_github_accountname>`, create your **GitHub project repo** using the template [iic-osic-tools-project-template](https://github.com/Jianxun/iic-osic-tools-project-template).
+- At `https://github.com/<your_github_accountname>`, create your **GitHub project repo** using Jianxun's template [iic-osic-tools-project-template](https://github.com/Jianxun/iic-osic-tools-project-template).
 
 - Clone your project repo using GitHub Desktop into your Windows/MacOS host's file system; we will refer to this folder as your *project repo folder*. When using default GitHub Desktop settings, it will be something like this:
 
@@ -180,13 +182,19 @@ You can first access the container through a web browser which does not require 
 ```
 > xschem
 ```
-You should get an example schematic with various demo schematics to characterize various devices in the gf180mcuD technology. Follow the instructions in the schematic. 
+- You should get an example schematic with various demo schematics to characterize various devices in the gf180mcuD technology. Follow the instructions in the schematic. 
+
+![Xschem Screenshot](./img/screenshot_xschem.png)
+
+- Also, in `xschem` open `/foss/designs/libs/tb_analog/tb_ota_5t_dc/tb_ota_5t_dc.sch` and run the DC simulation of the five transistor operational transconductance amplifier (OTA) example. 
 
 ## Conclusion
 
-You now have a basic setup of the open source tools for schematic entry and simulation. Lateron, we will add the layout and verification tools. 
+You now have a basic setup of the open source tools for schematic entry and simulation. 
 
-![Xschem Screenshot](./img/screenshot_xschem.png)
+Lateron, we will add the layout and verification tools. 
+
+
 
 ## Postscript Notes
 ### Windows: 
