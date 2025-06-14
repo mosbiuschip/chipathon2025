@@ -3,9 +3,9 @@
 Peter Kinget, June 14th, 2025
 
 ## Preamble
-- Read through this whole document first to get a sense of the various steps involved. 
+- Read through this whole document first to get an idea of the various steps involved. 
 
-- Then get a sense of the overall *constellation* by reviewing this figure:
+- Review this figure to understand the overall computing setup: 
 
 ![Setup Diagram](../CAD_tool_computing_constellation/img/Computer_Tools_Setup.png)
 
