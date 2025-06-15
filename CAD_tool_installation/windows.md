@@ -1,6 +1,12 @@
-# Installation Steps for Windows
+# More Advanced Installation Instructions for Windows
 
-> Under Construction
+Juan Moya, June 2025. 
+
+## Preamble
+
+These instructions help you install a more advanced set of s/w components to work with the open-source IC design tools. Beyond *Docker* and *VNC*, these instructions also use *VS Code* and *MobaXterm*. 
+
+## Installation Steps
 
 The Docker image used in this 2025 Chipathon is pre-packaged Docker container provided by Harald Pretl's lab **IIC-OSIC-TOOLS**: https://github.com/iic-jku/iic-osic-tools
 
