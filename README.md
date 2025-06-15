@@ -1,13 +1,14 @@
-# IEEE SSCS Chipathon2025: MOSbius Track - Main Documentation 
-In this repository you will find the main documentation associated with the MOSbius project for the [IEEE SSCS Chipathon 2025](https://github.com/sscs-ose/sscs-chipathon-2025/)
+# IEEE SSCS Chipathon2025: MOSbius Track Documentation 
+In this repository you will find the main documentation associated with the MOSbius track for the [IEEE SSCS Chipathon 2025](https://github.com/sscs-ose/sscs-chipathon-2025/)
 
 ## MOSbius Track Resources
 
-- [Brief Overview of the MOSbius Track](./files/MOSbius_Chipathon_2025_kinget_v1.pdf) & [MOSbius website](https://mosbius.org)
+- [Brief Overview of the MOSbius Track](./files/MOSbius_Chipathon_2025_kinget_v1.pdf) 
+-  [MOSbius website](https://mosbius.org)
 
-- [MOSbius Chipathon 2025 Documentation (this repo)](https://github.com/JuanMoya/Chipathon2025_MOSbius_main_documentation)
+- [MOSbius Chipathon 2025 Documentation (this repo)](https://github.com/mosbiuschip/chipathon2025)
 
-- [GF180 Analog Design Workflow GitHub Repo Template](https://github.com/Jianxun/iic-osic-tools-project-template) is a template for creating your project file repository on GitHub.
+- [GF180 Analog Design Workflow GitHub Repo Template](https://github.com/Jianxun/iic-osic-tools-project-template) is a template for creating your project file repository on GitHub (see [CAD_tool_installation](./CAD_tool_installation/install_using_repo.md))
 
 
 ## Structure of This Documentation Repository
