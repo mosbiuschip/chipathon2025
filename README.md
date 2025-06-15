@@ -1,10 +1,14 @@
 # IEEE SSCS Chipathon2025: MOSbius Track Documentation 
 In this repository you will find the main documentation associated with the MOSbius track for the [IEEE SSCS Chipathon 2025](https://github.com/sscs-ose/sscs-chipathon-2025/)
 
-## MOSbius Track Resources
 
-- [Brief Overview of the MOSbius Track](./files/MOSbius_Chipathon_2025_kinget_v1.pdf) 
--  [MOSbius website](https://mosbius.org)
+## Getting Started with Your Project
+
+- [Overview of the MOSbius Track](./files/MOSbius_Chipathon_2025_kinget_v1.pdf) 
+
+## MOSbius Track Documentation Resources
+
+-  [MOSbius Website](https://mosbius.org)
 
 - [MOSbius Chipathon 2025 Documentation (this repo)](https://github.com/mosbiuschip/chipathon2025)
 
