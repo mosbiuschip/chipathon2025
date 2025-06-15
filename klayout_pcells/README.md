@@ -1,11 +1,7 @@
 # gf180mcu pcell, drc, and lvs patch
 
 ---
-
-<center>
-> 🚧 Under Construction
-</center>
-
+> 🚧 Under Construction 🚧
 ---
 
 When you open the Docker image terminal, type the following command:

@@ -1,8 +1,8 @@
 # Installation Steps for Windows
 
-<div style="border: 1px solid #f39c12; background-color: #fff3cd; padding: 10px; border-radius: 5px;">
-  <strong>🚧 Under Construction:</strong> This section is being actively developed and will change.
-</div>
+---
+> 🚧 Under Construction 🚧
+---
 
 
 The Docker image used in this 2025 Chipathon is pre-packaged Docker container provided by Harald Pretl's lab **IIC-OSIC-TOOLS**: https://github.com/iic-jku/iic-osic-tools
