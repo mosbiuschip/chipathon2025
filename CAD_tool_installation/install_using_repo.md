@@ -7,6 +7,8 @@ Peter Kinget, June 14th, 2025
 
 - These instructions assume you have a basic understanding of using GitHub repositories and of using command-line-interface (CLI) commands. 
 
+- We are using the smallest number of s/w components possible to get a working analog IC design environment on a Windows or MacOS host computer. 
+
 - Review this figure to understand the overall computing setup: 
 
 ![Setup Diagram](../CAD_tool_computing_constellation/img/Computer_Tools_Setup.png)
