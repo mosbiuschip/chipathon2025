@@ -8,7 +8,7 @@ In parallel with the installation instructions, take a look at the [CAD Tool Com
 
 - [Installation Instructions for the Analog Design Tools on Windows and MacOS using GitHub project repo](install_using_repo.md)
 
-## Instructions (more detailed)
+## Instructions (more advanced)
 
 - [Windows](windows.md)
 - [MacOS](macos.md)
