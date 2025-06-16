@@ -3,7 +3,7 @@
 ## Documentation
 - [Open PDK Documentation](https://gf180mcu-pdk.readthedocs.io/en/latest/index.html)
 - [Overview of MOS Devices](./devices.md)
-- [Metal Layer Stack](https://docs.google.com/document/d/1ChH15kBK8iTl4yFJFgCrogKB7MXRZ5qC3BikpRQcxYE/edit?pli=1&tab=t.0#heading=h.7kzgkq1wwsal) (credit: wafer.space)
+- [Metal Layer Stack](metal_stack.md) 
 
 ## Design Examples
 
