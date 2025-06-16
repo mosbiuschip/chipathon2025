@@ -8,11 +8,11 @@
 ## Design Examples
 
 ### SSCS 2023 Chipathon 
-| Name | Link | 
-| --- | --- |
-| LTC3 | https://github.com/gabrielmaranhao/Bracolin/tree/main |
+| Name | Link | Blocks | 
+| --- | --- | --- |
+| LTC3 | https://github.com/gabrielmaranhao/Bracolin/tree/main | Clock_Reference, Current_Source, SAR_ADC, TIA_Filter, Voltage_Reference |
 | LTC2 | https://github.com/akiles-esta-usado/DC23-LTC2/tree/f6358b6aff1b4526a014195b640335f1def6f0c5/padframe |
-| LTC1 | https://github.com/Azeem-Abbas/DC23-LTC1/tree/main |
+| LTC1 | https://github.com/Azeem-Abbas/DC23-LTC1/tree/main | DAC, Clock Generator, Scope input & MUX, ADC, AWG output & MUX, Clock Generator | 
 
 
 
