@@ -7,6 +7,15 @@
 
 ## Design Examples
 
+### SSCS 2023 Chipathon 
+| Name | Link | 
+| --- | --- |
+| LTC3 | https://github.com/gabrielmaranhao/Bracolin/tree/main |
+| LTC2 | https://github.com/akiles-esta-usado/DC23-LTC2/tree/f6358b6aff1b4526a014195b640335f1def6f0c5/padframe |
+| LTC1 | https://github.com/Azeem-Abbas/DC23-LTC1/tree/main |
+
+
+
 ### Papers
 | Title | Type | Link |
 |-------|------|------|
@@ -17,12 +26,6 @@
 | LIG-OSS: Integrated Laser-Induced-Graphene Sensor and Open-Source Silicon Chip for an Affordable and Robust Wearable Sensing System with Precise Temperature, Humidity, and Strain Sensing Capability | Paper | [Link](https://ieeexplore.ieee.org/document/10639937) |
 
 
-### SSCS 2023 Chipathon 
-| Name | Link | 
-| --- | --- |
-| LTC1 | https://github.com/Azeem-Abbas/DC23-LTC1/tree/main |
-| LTC2 | https://github.com/akiles-esta-usado/DC23-LTC2/tree/f6358b6aff1b4526a014195b640335f1def6f0c5/padframe |
-| LTC3 | https://github.com/gabrielmaranhao/Bracolin/tree/main |
 
 
 
