@@ -12,15 +12,15 @@ In this repository you will find the main documentation associated with the MOSb
 
 - [MOSbius Chipathon 2025 Documentation (this repo)](https://github.com/mosbiuschip/chipathon2025)
 
-- [GF180 Analog Design Workflow GitHub Repo Template](https://github.com/Jianxun/iic-osic-tools-project-template) is a template for creating your project file repository on GitHub (see [CAD_tool_installation](./CAD_tool_installation/install_using_repo.md))
+- [GF180 Analog Design Workflow GitHub Repo Template](https://github.com/Jianxun/iic-osic-tools-project-template) is a template for creating your project file repository on GitHub (see below and in [CAD_tool_installation](./CAD_tool_installation/install_using_repo.md))
 
 
-## Structure of This Documentation Repository
+## Structure of This Repository
 
 - [`CAD_tool_installation`](./CAD_tool_installation/README.md) has installation instructions for the CAD tools.
 - [`CAD_tool_computing_constellation`](./CAD_tool_computing_constellation/README.md) gives an overview how the tools are being run on your computer.
 - [`CAD_tool_flow`](./CAD_tool_flow/README.md) explains the various CAD tools, their input and output files, and how they interact.
-- [`gf180mcuD technology`](./technology_info/README.md) has information resources about the GF180 technology for this tape-out.
+- [`gf180mcuD_technology_info`](./gf180mcuD_technology_info/README.md) has information resources about the GF180 technology gf180mcuD and design examples.
 
 ## Creating Your GitHub Repository for Your Design Files
 
