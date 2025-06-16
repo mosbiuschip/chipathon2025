@@ -1,6 +1,6 @@
 # Devices in gf180mcuD
 
-> Note: this was partly generated using an LLM. Double check the information before using or relying on it. 
+> ⚠️ Warning: this was partly generated using an LLM. Double check the information before using or relying on it. 
 
 ## GF180MCU Open PDK – MOSFET Device Table with SPICE Model Names
 

@@ -7,6 +7,7 @@
 
 ## Design Examples
 
+### Papers
 | Title | Type | Link |
 |-------|------|------|
 | Design and Test of Offset Quadrature Phase-Shift Keying Modulator with GF180MCU Open Source Process Design Kit | Paper | [Link](https://www.mdpi.com/2079-9292/13/9/1705) |
@@ -16,7 +17,7 @@
 | LIG-OSS: Integrated Laser-Induced-Graphene Sensor and Open-Source Silicon Chip for an Affordable and Robust Wearable Sensing System with Precise Temperature, Humidity, and Strain Sensing Capability | Paper | [Link](https://ieeexplore.ieee.org/document/10639937) |
 
 
-## SSCS 2023 Chipathon 
+### SSCS 2023 Chipathon 
 | Name | Link | 
 | --- | --- |
 | LTC1 | https://github.com/Azeem-Abbas/DC23-LTC1/tree/main |
