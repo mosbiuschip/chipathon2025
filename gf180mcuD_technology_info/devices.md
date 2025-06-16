@@ -26,6 +26,7 @@
 
 
 - In case you are wondering, the following devices are **not** available in **gf180mcuD**:
+
 | Schematic Label            | Device Type                     | Voltage Rating | SPICE Model Name      | Notes                                    |
 |---------------------------|----------------------------------|----------------|-----------------------|------------------------------------------|
 | *(not in test schematic)* | Thin-oxide NMOS (core)          | 1.8 V          | `nfet_01v8`           | Standard core NMOS                       |
