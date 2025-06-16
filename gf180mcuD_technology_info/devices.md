@@ -1,7 +1,8 @@
 # Devices in gf180mcuD
 
-> ⚠️ Warning: this was partly generated using an LLM. Double check the information before using or relying on it. 
-
+> ⚠️ <br>
+> ⚠️ Warning: this was partly generated using an LLM. Double check the information before using or relying on it. <br>
+> ⚠️ 
 ## GF180MCU Open PDK – MOSFET Device Table with SPICE Model Names
 
 Schematic label is referring to `/foss/pdks/gf180mcuD/libs.tech/xschem/tests/0_top.sch`
