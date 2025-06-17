@@ -1,4 +1,4 @@
-# More Advanced Installation Instructions for Windows
+# Installation Instructions for Windows - More Advanced Workflow
 
 Juan Moya, June 2025. 
 

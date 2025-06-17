@@ -3,7 +3,7 @@
 
 ## Analog Full Custom Design CAD Tool Flow
 
-The analog design flow is depicted in the following diagram (source: [EE628](https://github.com/bmurmann/EE628/))
+The analog design flow[^1] is depicted in the following diagram (source: [EE628](https://github.com/bmurmann/EE628/))
 
 
 ![Tool Flow](https://raw.githubusercontent.com/bmurmann/EE628/main/3_Tools/img/flow.png)
@@ -11,9 +11,9 @@ The analog design flow is depicted in the following diagram (source: [EE628](htt
 
 ## Associated File Types
 
-<div style="border: 1px solid #f39c12; background-color: #fff3cd; padding: 10px; border-radius: 5px;">
-  <strong>🚧 Under Construction:</strong> This section is being actively developed and will change.
-</div>
+> 🚧 <br>
+> 🚧 Under Construction:</strong> This section is being actively developed and will change. <br>
+> 🚧
 
 <p align="center">
    <img src="./img/Tool_flow.png" width="600" />
@@ -39,12 +39,14 @@ The analog design flow is depicted in the following diagram (source: [EE628](htt
 
 The PDK contains all the information about the semiconductor process for which the chip is being designed. The PDK provides the following information.
 
-- **Device Models**: these models are used by the circuit simulator to simulate the behavior of the electronic devices like MOS transistors, diodes, parasitic bipolars, etc. in the circuit. 
+- **Device Models**: these models are used by the circuit simulator to simulate the behavior of the electronic devices like MOS transistors, diodes, parasitic bipolar transistors, etc. in the circuit. 
 
 - **Layout Design Rules**: the DRC rule file provides the DRC checker with the rules it needs to check that the layout can be correclty manufactured and with high yield. 
 
 - **PEX Models:** the parasitic extraction tool uses this process information to compute parasitic capacitors and resistors of the wiring etc. 
 
+We collected information about the **gf180mcuD** technology [here](../gf180mcuD_technology_info/README.md). 
 
 
+[^1]: Other combinations of tools can be used, but this is the setup we recommend. 
 

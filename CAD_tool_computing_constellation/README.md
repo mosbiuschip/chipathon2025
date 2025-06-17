@@ -19,6 +19,7 @@ The design files are further stored in **repositories** on GitHub so you can col
 
 We strongly recommend designers to familiarize themselves with the basics of the following computing topics:
 
-- Linux command line instructions
-- Basic understanding of the linux file system organization
-- Git and GitHub repositories 
+- Linux command-line interface (CLI)
+- Basic linux commands and an understanding of the linux file system
+- Using Docker images and containers
+- Version control with Git and GitHub (online) repositories 
