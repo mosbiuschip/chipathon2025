@@ -6,7 +6,9 @@
 The analog design flow[^1] is depicted in the following diagram (source: [EE628](https://github.com/bmurmann/EE628/))
 
 
-![Tool Flow](https://raw.githubusercontent.com/bmurmann/EE628/main/3_Tools/img/flow.png)
+<p align="center">
+   <img src="https://raw.githubusercontent.com/bmurmann/EE628/main/3_Tools/img/flow.png" width="600" />
+</p>  
 
 
 ## Associated File Types
@@ -16,7 +18,7 @@ The analog design flow[^1] is depicted in the following diagram (source: [EE628]
 > 🚧
 
 <p align="center">
-   <img src="./img/tool_flow_pk.png" width="800" />
+   <img src="./img/tool_flow_pk.png" width="900" />
 </p>  
 
 - The **schematics** are drawn with `xschem` and are saved as `.sch` schematics and `.sym` symbols. 
