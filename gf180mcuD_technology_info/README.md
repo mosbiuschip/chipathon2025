@@ -2,8 +2,32 @@
 
 ## Documentation
 - [Open PDK Documentation](https://gf180mcu-pdk.readthedocs.io/en/latest/index.html)
+- [Definition of the Process Variant](https://github.com/RTimothyEdwards/open_pdks/blob/master/gf180mcu/Makefile.in)
+
+## Process Variant
+From [Definition of the Process Variant](https://github.com/RTimothyEdwards/open_pdks/blob/master/gf180mcu/Makefile.in): 
+> GF180MCU uses the same base process as
+> other GF180 processes.  However, instead of a thin oxide gate, the base
+> oxide is a thick oxide, and the thick oxide mask defines a thicker oxide.
+> The process DRC rules then follow the rule sets for thick oxide devices,
+> so the minimum length transistor is 280nm, making this much more like a
+> 0.28um process than a 0.18um process.
+
+> gf180mcuD   =  METALS5 | MIM | THICKMET1P1 | HRPOLY1K
+
 - [Overview of MOS Devices](./devices.md)
 - [Metal Layer Stack](metal_stack.md) 
+   - Five layers of metal
+   - Top metal (5) is 1.1 $\mu m$ thick
+- MIM capacitor 
+   - Between top metal (5) and the metal below (4)
+   - MIM capacitor density is 2 fF per $\mu m^2$
+- High sheet-resistivity poly resistor (1K$\Omega$/square)
+
+
+
+
+
 
 ## Design Examples
 
