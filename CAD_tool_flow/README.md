@@ -16,7 +16,7 @@ The analog design flow[^1] is depicted in the following diagram (source: [EE628]
 > 🚧
 
 <p align="center">
-   <img src="./img/tool_flow_pk.png" width="600" />
+   <img src="./img/tool_flow_pk.png" width="800" />
 </p>  
 
 - The **schematics** are drawn with `xschem` and are saved as `.sch` schematics and `.sym` symbols. 
