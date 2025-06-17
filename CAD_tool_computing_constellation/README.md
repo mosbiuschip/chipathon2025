@@ -2,7 +2,7 @@
 
 ## Overview
 <p align="center">
-   <img src="./img/Computer_Tools_Setup.png" width="600" />
+   <img src="./img/Computer_Tools_Setup.png" width="800" />
 </p>  
 
 We run the open-source tools in a **docker container** that is based on the docker image 'hpretl/icc-osic-tools' downloaded from the internet onto your Windows or MacOS host machine. In the docker container a linux machine runs the distribution Ubuntu. The open-source design tools (xschem, ngspice, klayout, ...) run on that linux machine. 
