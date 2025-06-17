@@ -22,7 +22,7 @@ From [Definition of the Process Variant](https://github.com/RTimothyEdwards/open
 - MIM capacitor 
    - Between top metal (5) and the metal below (4)
    - MIM capacitor density is 2 fF per $\mu m^2$
-- High sheet-resistivity poly resistor (1K$\Omega$/square)
+- High sheet-resistivity poly resistor (1K $\Omega$ /square)
 
 ## Design Examples
 
