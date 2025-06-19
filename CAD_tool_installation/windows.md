@@ -116,8 +116,8 @@ e) Now source the file to be able to work with Global Foundries 180nm PDK:
 | PDK | SkyWater 130nm | Global Foundries 180nm |  ihp sg13g2 130nm |
 | ----------- | ---- | --------- | ----- |
 | PDK Library |	export PDK = sky130A | export PDK = gf180mcuC | export PDK=ihp-sg13g2 |
-| Path to the PDK Library |	export PDKPATH = $PDK_ROOT/$PDK | export PDKPATH = $PDK_ROOT/$PDK	| PDKPATH=$PDK_ROOT/$PDK |
-| Standard Cell PDK Library |	export STD_CELL_LIBRARY = sky130_fd_sc_hd | export STD_CELL_LIBRARY = gf180mcu_fd_sc_mcu7t5v0	| sg13g2_stdcell |
+| Path to the PDK Library |	export PDKPATH = $PDK_ROOT/$PDK | export PDKPATH = $PDK_ROOT/$PDK	| export PDKPATH = $PDK_ROOT/$PDK |
+| Standard Cell PDK Library |	export STD_CELL_LIBRARY = sky130_fd_sc_hd | export STD_CELL_LIBRARY = gf180mcu_fd_sc_mcu7t5v0	| export STD_CELL_LIBRARY =  sg13g2_stdcell |
 
 <br>
 <br>
