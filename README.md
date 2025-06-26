@@ -2,7 +2,7 @@
 In this repository you will find the main documentation associated with the MOSbius track for the [IEEE SSCS Chipathon 2025](https://github.com/sscs-ose/sscs-chipathon-2025/)
 
 
-## Slides
+## Slides 
 
 - [Overview of the MOSbius Track & How to Get Started (week 2)](./files/MOSbius_Chipathon_2025_kinget_v1.pdf) 
 - [Tutorial on MOSbius & How to Make a Chip Proposal (week 3)](./files/MOSbius_Chipathon_2025_tutorial_kinget_v1.pdf)
