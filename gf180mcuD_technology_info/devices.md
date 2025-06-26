@@ -38,6 +38,9 @@
     - [3.3V NMOS (pdf)](https://github.com/peterkinget/gm-ID-gf180mcuD/blob/main/starter_files_open_source_tools/gf180mcuD/PDFs/PK_techsweep_plots_from_mat_v1-NMOS.pdf)
     - [3.3V PMOS (pdf)](https://github.com/peterkinget/gm-ID-gf180mcuD/blob/main/starter_files_open_source_tools/gf180mcuD/PDFs/PK_techsweep_plots_from_mat_v1-PMOS.pdf)
 
+- You might find this paper of interest as well: 
+    - D. M. Binkley, B. J. Blalock, and J. M. Rochelle, “Optimizing Drain Current, Inversion Level, and Channel Length in Analog CMOS Design,” Analog Integr Circ Sig Process, vol. 47, no. 2, pp. 137–163, May 2006, doi: 10.1007/s10470-006-2949-y.
+
 
 ----
 ----
