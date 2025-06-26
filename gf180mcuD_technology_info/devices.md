@@ -1,12 +1,13 @@
 # Devices in gf180mcuD
 
-> ⚠️ <br>
-> ⚠️ Warning: this was partly generated using an LLM. Double check the information before using or relying on it. <br>
-> ⚠️ 
+
 
 
 
 ## MOSFET Device Table with SPICE Model Names
+
+
+> ⚠️ Warning: this was partly generated using an LLM. Double check the information before using or relying on it. <br>
 
 - Here is a list of MOS devices available in **gf180mcuD**
 - Schematic label is referring to `/foss/pdks/gf180mcuD/libs.tech/xschem/tests/0_top.sch`
