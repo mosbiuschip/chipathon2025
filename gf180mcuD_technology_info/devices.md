@@ -34,9 +34,9 @@
 - [Boris Murmann, Book-on-gm-ID-design, Starter Files](https://github.com/bmurmann/Book-on-gm-ID-design/tree/main/starter_files_open_source_tools)
     - Take a look at the Jupyter Notebooks (`.ipynb` files) in [this folder](https://github.com/bmurmann/Book-on-gm-ID-design/tree/main/starter_files_open_source_tools/gf180mcuD).
 
-- A modified notebook: [Peter Kinget, gf180mcuD Gm-over-ID study, Jupyter Notebook](https://github.com/peterkinget/gm-ID-gf180mcuD/blob/main/starter_files_open_source_tools/gf180mcuD/PK_techsweep_plots_from_mat.ipynb)
-    - [3.3V NMOS (pdf)](https://github.com/peterkinget/gm-ID-gf180mcuD/blob/main/starter_files_open_source_tools/gf180mcuD/PDFs/PK_techsweep_plots_from_mat-NMOS.pdf)
-    - [3.3V PMOS (pdf)](https://github.com/peterkinget/gm-ID-gf180mcuD/blob/main/starter_files_open_source_tools/gf180mcuD/PDFs/PK_techsweep_plots_from_mat-PMOS.pdf)
+- A modified notebook: [Peter Kinget, gf180mcuD Gm-over-ID study, Jupyter Notebook](https://github.com/peterkinget/gm-ID-gf180mcuD/blob/main/starter_files_open_source_tools/gf180mcuD/PK_techsweep_plots_from_mat_v1.ipynb)
+    - [3.3V NMOS (pdf)](https://github.com/peterkinget/gm-ID-gf180mcuD/blob/main/starter_files_open_source_tools/gf180mcuD/PDFs/PK_techsweep_plots_from_mat_v1-NMOS.pdf)
+    - [3.3V PMOS (pdf)](https://github.com/peterkinget/gm-ID-gf180mcuD/blob/main/starter_files_open_source_tools/gf180mcuD/PDFs/PK_techsweep_plots_from_mat_v1-PMOS.pdf)
 
 
 ----
