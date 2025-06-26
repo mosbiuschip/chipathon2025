@@ -49,6 +49,9 @@ The PDK contains all the information about the semiconductor process for which t
 
 We collected information about the **gf180mcuD** technology [here](../gf180mcuD_technology_info/README.md). 
 
+## Tutorial Videos
+
+- [GF180MCU Tutorial (2 years old)](https://youtube.com/playlist?list=PLZuGFJzpFksCU7yKn2P_xRTOktVBDWAJf&feature=shared)
 
 [^1]: Other combinations of tools can be used, but this is the setup we recommend. 
 

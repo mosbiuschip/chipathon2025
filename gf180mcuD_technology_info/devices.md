@@ -3,6 +3,9 @@
 > ⚠️ <br>
 > ⚠️ Warning: this was partly generated using an LLM. Double check the information before using or relying on it. <br>
 > ⚠️ 
+
+
+
 ## MOSFET Device Table with SPICE Model Names
 
 - Here is a list of MOS devices available in **gf180mcuD**
@@ -25,7 +28,30 @@
 | `test_pfet_10v0_asym`     | Asymmetric HV PMOS              | 10.0 V         | `pfet_10v0_asym`      | High-voltage output or IO path           |
 
 
-- In case you are wondering, the following devices are **not** available in **gf180mcuD**:
+
+## Gm-over-ID Characterization
+
+- [Boris Murmann, Book-on-gm-ID-design, Starter Files](https://github.com/bmurmann/Book-on-gm-ID-design/tree/main/starter_files_open_source_tools)
+    - Take a look at the Jupyter Notebooks (`.ipynb` files) in [this folder](https://github.com/bmurmann/Book-on-gm-ID-design/tree/main/starter_files_open_source_tools/gf180mcuD).
+
+- A modified notebook: [Peter Kinget, gf180mcuD Gm-over-ID study, Jupyter Notebook](https://github.com/peterkinget/gm-ID-gf180mcuD/blob/main/starter_files_open_source_tools/gf180mcuD/PK_techsweep_plots_from_mat_v1.ipynb)
+    - [3.3V NMOS (pdf)](https://github.com/peterkinget/gm-ID-gf180mcuD/blob/main/starter_files_open_source_tools/gf180mcuD/PDFs/PK_techsweep_plots_from_mat_v1-NMOS.pdf)
+    - [3.3V PMOS (pdf)](https://github.com/peterkinget/gm-ID-gf180mcuD/blob/main/starter_files_open_source_tools/gf180mcuD/PDFs/PK_techsweep_plots_from_mat_v1-PMOS.pdf)
+
+
+----
+----
+## Thin-Oxide 1.8V Devices are not Available in GF180MCU
+
+- From [Definition of the Process Variant](https://github.com/RTimothyEdwards/open_pdks/blob/master/gf180mcu/Makefile.in): 
+> GF180MCU uses the same base process as
+> other GF180 processes.  However, instead of a thin oxide gate, the base
+> oxide is a thick oxide, and the thick oxide mask defines a thicker oxide.
+> The process DRC rules then follow the rule sets for thick oxide devices,
+> so the minimum length transistor is 280nm, making this much more like a
+> 0.28um process than a 0.18um process.
+
+- So, the following devices are **not** available in **gf180mcuD**:
 
 | Schematic Label            | Device Type                     | Voltage Rating | SPICE Model Name      | Notes                                    |
 |---------------------------|----------------------------------|----------------|-----------------------|------------------------------------------|
