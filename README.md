@@ -7,6 +7,9 @@ In this repository you will find the main documentation associated with the MOSb
 - [Overview of the MOSbius Track & How to Get Started (week 2)](./files/MOSbius_Chipathon_2025_kinget_v1.pdf) 
 - [Tutorial on MOSbius & How to Make a Chip Proposal (week 3)](./files/MOSbius_Chipathon_2025_tutorial_kinget_v1.pdf)
 
+## Assignments
+- [MOSbius Week 3 Assignment]()
+
 ## Documentation Resources
 
 -  [MOSbius Website](https://mosbius.org)

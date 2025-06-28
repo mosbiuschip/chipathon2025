@@ -32,15 +32,18 @@
 
 ## Gm-over-ID Characterization
 
-- [Boris Murmann, Book-on-gm-ID-design, Starter Files](https://github.com/bmurmann/Book-on-gm-ID-design/tree/main/starter_files_open_source_tools)
-    - Take a look at the Jupyter Notebooks (`.ipynb` files) in [this folder](https://github.com/bmurmann/Book-on-gm-ID-design/tree/main/starter_files_open_source_tools/gf180mcuD).
 
-- A modified notebook: [Peter Kinget, gf180mcuD Gm-over-ID study, Jupyter Notebook](https://github.com/peterkinget/gm-ID-gf180mcuD/blob/main/starter_files_open_source_tools/gf180mcuD/PK_techsweep_plots_from_mat_v1.ipynb)
+- Here is a basic notebook: [Peter Kinget, gf180mcuD Gm-over-ID study, Jupyter Notebook](https://github.com/peterkinget/gm-ID-gf180mcuD/blob/main/starter_files_open_source_tools/gf180mcuD/PK_techsweep_plots_from_mat_v1.ipynb) and the results for NMOS and PMOS devices:
     - [3.3V NMOS (pdf)](https://github.com/peterkinget/gm-ID-gf180mcuD/blob/main/starter_files_open_source_tools/gf180mcuD/PDFs/PK_techsweep_plots_from_mat_v1-NMOS.pdf)
     - [3.3V PMOS (pdf)](https://github.com/peterkinget/gm-ID-gf180mcuD/blob/main/starter_files_open_source_tools/gf180mcuD/PDFs/PK_techsweep_plots_from_mat_v1-PMOS.pdf)
 
+- It's based on [Boris Murmann, Book-on-gm-ID-design, Starter Files](https://github.com/bmurmann/Book-on-gm-ID-design/tree/main/starter_files_open_source_tools)
+    - Take a look at the Jupyter Notebooks (`.ipynb` files) in [this folder](https://github.com/bmurmann/Book-on-gm-ID-design/tree/main/starter_files_open_source_tools/gf180mcuD).
+
 - You might find this paper of interest as well: 
     - D. M. Binkley, B. J. Blalock, and J. M. Rochelle, “Optimizing Drain Current, Inversion Level, and Channel Length in Analog CMOS Design,” Analog Integr Circ Sig Process, vol. 47, no. 2, pp. 137–163, May 2006, doi: 10.1007/s10470-006-2949-y.
+
+- [Chapter 3 in H. Pretl et al., 'Analog Circuit Design' ](https://iic-jku.github.io/analog-circuit-design/analog_circuit_design.html#sec-gmid-method) discusses gm/ID characterization using the open-source tools. 
 
 
 ----
