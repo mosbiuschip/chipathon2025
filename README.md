@@ -8,7 +8,7 @@ In this repository you will find the main documentation associated with the MOSb
 - [Tutorial on MOSbius & How to Make a Chip Proposal (week 3)](./files/MOSbius_Chipathon_2025_tutorial_kinget_v1.pdf)
 
 ## Assignments
-- [MOSbius Week 3 Assignment]()
+- [MOSbius Week 3 Assignment](assignments/MOSbius_week3_assignment.md)
 
 ## Documentation Resources
 
