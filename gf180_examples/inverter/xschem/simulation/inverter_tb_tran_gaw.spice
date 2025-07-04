@@ -1,0 +1,41 @@
+** sch_path: /foss/designs/Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter_tb_tran_gaw.sch
+**.subckt inverter_tb_tran_gaw
+x1 Vin VDD VSS Vout inverter
+C1 Vout VSS 100f m=1
+V1 VSS GND 0
+V2 VDD VSS 3.3
+Vin Vin VSS PULSE(0 3.3 0 5n 5n 1u 2u)
+**** begin user architecture code
+
+.include /foss/pdks/gf180mcuD/libs.tech/ngspice/design.ngspice
+.lib /foss/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
+.lib /foss/pdks/gf180mcuD/libs.tech/ngspice/smbb000149.ngspice typical
+
+
+
+.control
+tran 1n 10u
+save all
+write inverter_tb_tran_gaw.raw
+.endc
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter.sym # of pins=4
+** sym_path: /foss/designs/Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter.sym
+** sch_path: /foss/designs/Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter.sch
+.subckt inverter Vin VDD VSS Vout
+*.ipin Vin
+*.iopin VDD
+*.iopin VSS
+*.iopin Vout
+XM1 Vout Vin VSS VSS nfet_03v3 L=1u W=3u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM2 Vout Vin VDD VDD pfet_03v3 L=1u W=3u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+.ends
+
+.GLOBAL GND
+.end
