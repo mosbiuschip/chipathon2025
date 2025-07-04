@@ -1,0 +1,27 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Leer el archivo de texto sin encabezados y asignar nombres
+pdData = pd.read_csv('/content/sample_data/inverter_tb_tran.txt',
+                     delim_whitespace=True,
+                     header=None,
+                     names=['t', 'Vin', 't2', 'Vout'])
+
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 6), sharex=True)
+
+# First subplot: Vin
+ax1.plot(pdData['t'], pdData['Vin'], color='orange', linewidth=2)
+ax1.set_title('Vin - Input Signal')
+ax1.set_ylabel('Voltage (V)')
+ax1.grid(True)
+
+# Segundo subplot: Vout
+ax2.plot(pdData['t'], pdData['Vout'], color='blue', linewidth=2)
+ax2.set_title('Vout - Output Signal')
+ax2.set_xlabel('Time (s)')
+ax2.set_ylabel('Voltage (V)')
+ax2.grid(True)
+
+# Ajustar espacios
+plt.tight_layout()
+plt.show()

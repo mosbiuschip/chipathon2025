@@ -1,0 +1,6 @@
+** sch_path: /foss/designs/Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter.sch
+.subckt inverter Vin VDD VSS Vout
+*.PININFO Vin:I VDD:B VSS:B Vout:B
+M1 Vout Vin VSS VSS nfet_03v3 L=1u W=3u nf=1 m=1
+M2 Vout Vin VDD VDD pfet_03v3 L=1u W=3u nf=1 m=1
+.ends
